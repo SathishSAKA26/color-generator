@@ -46,7 +46,7 @@ const App = () => {
 
       <section className="colors">
         {list.map((color, index) => {
-          return <Color key={index} {...color} />;
+          return <Color key={index} {...color} index={index} />;
         })}
       </section>
     </main>

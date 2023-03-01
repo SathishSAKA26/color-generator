@@ -74,11 +74,37 @@ li {
 }
 
 .colors {
+  margin: 1rem auto;
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .error {
   border: 2px solid red;
+}
+
+.color {
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 1.5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.percent {
+  color: var(--clr-black);
+}
+
+.color-value {
+  color: var(--clr-black);
+}
+
+.color-light .percent {
+  color: var(--clr-white);
+}
+
+.color-light .color-value {
+  color: var(--clr-white);
 }
